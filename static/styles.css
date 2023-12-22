@@ -1,8 +1,32 @@
 /* Reset de estilos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Verdana';
+}
+
+.container{
+	max-width:85%;
+	margin:auto;
+}
+.titulo{
+	font-size:25px;
+	background-color: #000;
+	color: #fff;
+	margin-bottom:10px;
+	text-align: center;
+	padding: 15px;
+
+}
+.img-container{
+	columns:3 250px;
+	gap: 15px;
+}
+/*esta parte serve para aplicar o Responsive à Galeria */
+.container .img-container img{
+	margin-bottom:10px;
+	width:100%;
 }
 
 /* Estilos básicos */
